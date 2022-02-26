@@ -1,0 +1,15 @@
+.posts > nav {
+  padding: 15px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .posts > nav > b {} */
+
+.posts > nav > p > select {
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
