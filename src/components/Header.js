@@ -11,6 +11,11 @@ function Header() {
               join group
           </span>
       </p>
+
+      <div className="topic">
+          <h1>computer engineering</h1>
+          <p>142,765 Computer Engineers follow this</p>
+      </div>
     </header>
   );
 }

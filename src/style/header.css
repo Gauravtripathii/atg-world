@@ -40,3 +40,14 @@ header > p > .join {
   padding: 5px;
   font-size: 20px;
 }
+
+header > .topic {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+header > .topic > h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
