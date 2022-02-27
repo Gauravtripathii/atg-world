@@ -5,10 +5,10 @@ import google_icon from "../media/icons/google.png";
 function Register() {
   const close_register_box = () => {
     var reg = document.querySelector(".register");
-    reg.style.height = "0vh";
+    reg.style.display = "none";
   };
   return (
-    <div className="register">
+    <div className="register"> <div className="trans"></div>
       <div className="head">
         <h3>Create Account</h3>
         <div className="cancel" onClick={() => close_register_box()}>

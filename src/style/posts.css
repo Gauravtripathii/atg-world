@@ -13,3 +13,10 @@
   padding: 5px;
   font-size: 20px;
 }
+
+@media only screen and (min-width: 900px) {
+  .posts {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
